@@ -1,0 +1,16 @@
+frmMain = 44, 58, 832, 653, Z, 22, 29, 810, 624, C
+mdlMain = 0, 0, 0, 0, C
+frmAllResult = 0, 0, 0, 0, C, 66, 87, 854, 682, C
+frmResult = 0, 0, 0, 0, C, 88, 116, 876, 711, C
+frmMain2 = 0, 0, 0, 0, C, 110, 145, 898, 740, C
+mdlPublic = 0, 0, 0, 0, C
+frmMain3 = 0, 0, 0, 0, C, 132, 174, 920, 769, C
+mdlGlobe = 110, 145, 1095, 670, 
+frmDic = 0, 0, 0, 0, C, 154, 203, 942, 798, C
+mdlControl = 132, 174, 1117, 699, 
+frmTip = 0, 0, 0, 0, C, 176, 232, 964, 827, C
+frmTime = 0, 0, 0, 0, C, 198, 261, 986, 856, C
+frmQuit = 0, 0, 0, 0, C, 220, 290, 1008, 885, C
+clsRegHotKeys = 88, 116, 1073, 641, 
+frmCarefullListen = 0, 0, 0, 0, C, 0, 0, 788, 595, C
+SkinH = 0, 0, 0, 0, C

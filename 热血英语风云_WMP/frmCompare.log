@@ -1,0 +1,6 @@
+行 26: 控件 txtB 的类 RichTextLib.RichTextBox 不是一个已加载的控件类。
+行 47: 控件 txtA 的类 RichTextLib.RichTextBox 不是一个已加载的控件类。
+行 32: 属性名 _ExtentX 在 txtB 中是无效的。
+行 33: 属性名 _ExtentY 在 txtB 中是无效的。
+行 34: 属性名 _Version 在 txtB 中是无效的。
+行 35: 属性名 ScrollBars 在 txtB 中是无效的。

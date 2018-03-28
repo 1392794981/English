@@ -1,0 +1,7 @@
+/ 后退5秒
+* 前进5秒
+- 重读当前
++ 播放与暂停
+insert
+pagedown
+pageup

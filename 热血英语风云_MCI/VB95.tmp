@@ -1,0 +1,61 @@
+VERSION 5.00
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "Mscomctl.ocx"
+Object = "{6BF52A50-394A-11D3-B153-00C04F79FAA6}#1.0#0"; "wmp.dll"
+Begin VB.Form frmCarefullListen 
+   BorderStyle     =   4  'Fixed ToolWindow
+   Caption         =   "细听"
+   ClientHeight    =   825
+   ClientLeft      =   45
+   ClientTop       =   390
+   ClientWidth     =   4635
+   ControlBox      =   0   'False
+   LinkTopic       =   "Form1"
+   MaxButton       =   0   'False
+   MinButton       =   0   'False
+   ScaleHeight     =   825
+   ScaleWidth      =   4635
+   ShowInTaskbar   =   0   'False
+   StartUpPosition =   1  '所有者中心
+   Begin MSComctlLib.ProgressBar ProgressBar1 
+      Height          =   375
+      Left            =   240
+      TabIndex        =   2
+      Top             =   240
+      Width           =   2895
+      _ExtentX        =   5106
+      _ExtentY        =   661
+      _Version        =   393216
+      BorderStyle     =   1
+      Appearance      =   0
+      Scrolling       =   1
+   End
+   Begin VB.Timer Timer1 
+      Interval        =   10
+      Left            =   3000
+      Top             =   360
+   End
+   Begin WMPLibCtl.WindowsMediaPlayer WindowsMediaPlayer1 
+      Height          =   615
+      Left            =   3600
+      TabIndex        =   1
+      Top             =   600
+      Visible         =   0   'False
+      Width           =   1575
+      URL             =   ""
+      rate            =   1
+      balance         =   0
+      currentPosition =   0
+      defaultFrame    =   ""
+      playCount       =   1
+      autoStart       =   -1  'True
+      currentMarker   =   0
+      invokeURLs      =   -1  'True
+      baseURL         =   ""
+      volume          =   50
+      mute            =   0   'False
+      uiMode          =   "full"
+      stretchToFit    =   0   'False
+      windowlessVideo =   0   'False
+      enabled         =   -1  'True
+      enableContextMenu=   -1  'True
+      fullScreen      =   0   'False
