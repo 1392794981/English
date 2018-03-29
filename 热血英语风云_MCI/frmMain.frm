@@ -7,8 +7,8 @@ Object = "{6BF52A50-394A-11D3-B153-00C04F79FAA6}#1.0#0"; "wmp.dll"
 Begin VB.Form frmMain 
    Caption         =   "ÈÈÑª"
    ClientHeight    =   7005
-   ClientLeft      =   480
-   ClientTop       =   1170
+   ClientLeft      =   465
+   ClientTop       =   1155
    ClientWidth     =   12525
    Icon            =   "frmMain.frx":0000
    KeyPreview      =   -1  'True
@@ -305,7 +305,6 @@ Begin VB.Form frmMain
       _ExtentX        =   2566
       _ExtentY        =   3413
       _Version        =   393217
-      Enabled         =   -1  'True
       HideSelection   =   0   'False
       ScrollBars      =   2
       TextRTF         =   $"frmMain.frx":08CA
@@ -594,14 +593,6 @@ Begin VB.Form frmMain
       BorderStyle     =   1
       Appearance      =   1
       NumItems        =   0
-   End
-   Begin VB.Label Label1 
-      Caption         =   "Label1"
-      Height          =   375
-      Left            =   6600
-      TabIndex        =   55
-      Top             =   0
-      Width           =   855
    End
    Begin WMPLibCtl.WindowsMediaPlayer WindowsMediaPlayer1 
       Height          =   615
